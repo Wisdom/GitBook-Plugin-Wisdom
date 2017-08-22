@@ -1,0 +1,27 @@
+{
+    "name": "gitbook-plugin-wisdom",
+    "version": "0.1.1",
+    "description": "Add the Wisdom Session Replay plugin to your GitBook.",
+    "engines": {
+        "gitbook": ">=2.5.0"
+    },
+    "main": "index.js",
+    "homepage": "https://getwisdom.io",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Wisdom/GitBook-Plugin-Wisdom"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Wisdom/GitBook-Plugin-Wisdom/issues"
+    },
+    "gitbook": {
+        "properties": {
+            "accountId": {
+                "type": "string",
+                "title": "Wisdom AccountID",
+                "required": true
+            }
+        }
+    }
+}
