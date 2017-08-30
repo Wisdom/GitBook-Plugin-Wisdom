@@ -1,6 +1,6 @@
 {
     "name": "gitbook-plugin-wisdom",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Add the Wisdom Session Replay plugin to your GitBook.",
     "engines": {
         "gitbook": ">=2.5.0"
